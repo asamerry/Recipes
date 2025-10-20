@@ -1,0 +1,440 @@
+\documentclass[11pt, letterpaper]{article}
+
+%% Packages
+\usepackage[top=2cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{titlesec}
+\usepackage{calligra}
+
+%% Commands
+\newcommand{\F}{\textdegree F }
+\newcommand{\C}{\textdegree C }
+
+%% Environments
+\newenvironment{recipe}[1]{\noindent\textbf{\underline{#1}} \\ \vspace{0.1em} \\}{\vspace{1em}}
+\newenvironment{ingredients}[1][]
+	{\textbf{Ingredients}
+		\if\relax\detokenize{#1}\relax
+		\else
+			\textbf{: #1}
+		\fi
+	\begin{itemize}}
+	{\end{itemize}}
+\newenvironment{directions}{\textbf{Directions}\begin{enumerate}}{\end{enumerate}}
+
+\begin{document}
+
+\titleformat{\section}{\centering\calligra\fontsize{42}{48}\selectfont}{\thesection}{1em}{}
+\titleformat{\subsection}{\centering\calligra\fontsize{24}{28}\selectfont}{\thesubsection}{1em}{}
+
+\begin{titlepage}
+	\begin{center}
+		
+		\vspace*{1in}
+		
+		\textbf{\Large Recipe Book}
+		
+		\vspace{4.5in}
+
+		Jake Merry  
+	
+	\end{center}
+\end{titlepage}
+
+\tableofcontents
+\pagebreak
+
+
+\section*{Purgatory}
+\addcontentsline{toc}{section}{Purgatory}
+
+\begin{itemize}
+	\item Slow-Cooker Hoisin Pulled Pork
+	\item Slow-Cooker Pineapple Carnitas
+\end{itemize}
+
+
+\pagebreak
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Basics and Foundations  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Basics and Foundations}
+\addcontentsline{toc}{section}{Basics and Foundations}
+
+%% Stocks
+\subsection*{Stocks}
+\addcontentsline{toc}{subsection}{Stocks}
+
+\begin{recipe}{Golden Chicken Stock}
+	\begin{ingredients}
+		\item Chicken bones
+		\item Carrot scraps
+		\item Celery scraps
+		\item Onion Scraps
+		\item Choice of aromatics (garlic, parsley, sage, rosemary, black peppercorn)
+	\end{ingredients}
+	\begin{directions}
+		\item Roast chicken bones in the oven at 400\F until golden brown. 
+		\item In a very large pot, sweat onion scraps. Once soft, add carrot and celery scraps and let brown slightly. 
+		\item To the pot, add chicken bones and fill the pot with water, 1 inch above the tops of the bones. Bring water to a boil and reduce heat to a simmer. Skim off the top, add aromatics, and let simmer for 2-4 hours. Strain stock. 
+	\end{directions}
+\end{recipe}
+
+
+%% Sauces
+\subsection*{Sauces}
+\addcontentsline{toc}{subsection}{Sauces}
+
+
+
+\pagebreak
+%%%%%%%%%%%%%%%%%%
+%%  Breakfasts  %%
+%%%%%%%%%%%%%%%%%%
+\section*{Breakfasts}
+\addcontentsline{toc}{section}{Breakfasts}
+
+\begin{recipe}{Waffles}
+	\begin{ingredients}
+		\item 140 g Flour
+		\item 25 g Sugar
+		\item 1/2 tbsp Baking powder
+		\item 1/2 tsp Salt
+		\item 250 g Milk
+		\item 2 tbsp Melted butter
+		\item 1 large Egg
+		\item 1 tsp Vanilla
+	\end{ingredients}
+	\begin{directions}
+		\item In a large bowl, combine dry ingredients. 
+		\item In a separate bowl, combine wet ingredients. 
+		\item Incorporate wet ingredients into dry ingredients until it forms an even batter (some lumps are fine). 
+		\item Cook in a waffle iron. 
+	\end{directions}
+\end{recipe}
+
+
+\pagebreak
+%%%%%%%%%%%%%%%%
+%%  Starters  %%
+%%%%%%%%%%%%%%%%
+\section*{Starters}
+\addcontentsline{toc}{section}{Starters}
+
+%% Appetizers
+\subsection*{Appetizers}
+\addcontentsline{toc}{subsection}{Appetizers}
+
+
+%% Soups
+\subsection*{Soups}
+\addcontentsline{toc}{subsection}{Soups}
+
+\begin{recipe}{Zuppa Toscana}
+	\begin{ingredients}
+		\item 1 lb Hot Italian sausage
+		\item 4 tbsp Butter
+		\item $\frac12$ diced White onion
+		\item 3 cloves minced Garlic
+		\item 6 cups Chicken stock
+		\item 2 cups Water
+		\item 4-5 diced Yellow potatoes
+		\item 2 cups Heavy cream
+		\item 4 cups chopped Kale
+		\item Chopped Bacon
+		\item Parmesan Cheese
+	\end{ingredients}
+	\begin{directions}
+		\item In a large pot, brown the sausage. Remove sausage, leaving the fat. To the pot add the butter and onion. Cook until onions are soft. Add garlic and cook another minute. 
+		\item Add chicken stock, water, and potatoes, and season with salt and pepper to taste. Cook until potatoes are soft. Stir in kale, heavy cream, sausage, and bacon. Serve with parmesan. 
+	\end{directions}
+\end{recipe}
+
+
+%% Salads
+\subsection*{Salads}
+\addcontentsline{toc}{subsection}{Salads}
+
+
+
+\pagebreak
+%%%%%%%%%%%%%%%
+%%  Entrees  %%
+%%%%%%%%%%%%%%%
+\section*{Entrees}
+\addcontentsline{toc}{section}{Entrees}
+
+\begin{recipe}{Beef Stroganoff}
+	\begin{ingredients}
+		\item 3 1/2 tbsp Butter
+		\item 1 tsp Flour
+		\item 1 cup Beef stock
+		\item 1 lb sliced Beef
+		\item 1/2 cup chopped Shallots
+		\item 2 cloves chopped Garlic
+		\item 12 oz sliced Mushrooms
+		\item 3 tbsp Sour cream
+		\item 1 tsp Dijon mustard
+		\item 2 tbsp Dill
+	\end{ingredients}
+	\begin{directions}
+		\item In a large pot, melt the butter and combine with the flour to make a roux. After 2-3 minutes, slowly incorporate the beef stock, stirring. Increase the heat and simmer for 3-5 minutes. 
+		\item Season the beed with salt and pepper. In a pan, brown the meat, not cooking all the way through. Remove and sweat the shallots and garlic in the same pan. Remove and add the mushrooms and cook until almost done. Add back in the beef, shallots, and garlic and finish cooking. 
+		\item Reduce the heat on the sauce to low and mix in the sour cream and mustard, stirring as you go. Once, the meat and mushrooms are fully cooked, add the contents of the pan to the sauce and season to taste with salt, pepper, and dill. 
+	\end{directions}
+\end{recipe}
+
+\begin{recipe}{Coq au Vin}
+	\begin{ingredients}
+		\item 4 Chicken Legs
+		\item 750 ml Red wine
+		\item 6 cloves Garlic
+		\item Bouqet garni - thyme, rosemary, bay leaves
+		\item 140 g Bacon (Lardons preferred if accessible)
+		\item 4 Shallots
+		\item 400 g Mushrooms
+		\item 750 ml Beef stock
+		\item 2 tsbp Flour 
+		\item 4 tbsp Water
+	\end{ingredients}
+	\begin{directions}
+		\item Marinate chicken legs in red wine with herbs and half the garlic over night. 
+		\item In a large pot, cook the bacon and remove, leaving the oil. 
+		\item Remove the chicken from the marinade and pat dry. Then add to the pot, in batches if needed, cooking just until the outside is golden. Remove chicken and set aside. 
+		\item Half or quarter the shallots and fry with the remaining garlic in the chicken and bacon fat until darkened and carmelized. Remove. 
+		\item Cook the mushrooms in the remaining fat. Add the cooked bacon, shallots, and garlic back to the pot and add in the beef stock and the marinade. Stir to combine. 
+		\item Make a slurry from water and flour and incorporate into the broth. 
+		\item Submerge chicken legs in the broth and simmer until the wine and stock have reduced to a broth. 
+		\item Season with salt and pepper to taste and serve over mashed potatoes.
+	\end{directions}
+\end{recipe}
+
+\begin{recipe}{Parmesan Chicken}
+	\begin{ingredients}
+		\item $\frac12$ cup Parmesan cheese
+		\item 1 envelope Italian salad dressing mix
+		\item $\frac12$ tsp Garlic powder
+		\item 2 lbs Chicken thighs
+	\end{ingredients}
+	\begin{directions}
+		\item Mix dry ingredients and coat chicken in mixture. 
+		\item Bake at 400\F for 25-30 minutes.
+	\end{directions}
+\end{recipe}
+
+\begin{recipe}{Mayak Eggs}
+	\begin{ingredients}
+		\item 
+	\end{ingredients}
+	\begin{directions}
+		\item 
+	\end{directions}
+\end{recipe}
+
+
+\pagebreak
+%%%%%%%%%%%%%
+%%  Sides  %%
+%%%%%%%%%%%%%
+\section*{Sides}
+\addcontentsline{toc}{section}{Sides}
+
+%% Breads
+\subsection*{Breads}
+\addcontentsline{toc}{subsection}{Breads}
+
+\begin{recipe}{Greek Pita}
+	\begin{ingredients}
+		\item 1 pack Active dry yeast
+		\item $\frac12$ tsp Sugar
+		\item $\frac23$ cups Milk
+		\item $\frac13$ cup Water
+		\item 2 $\frac23$ cups Flour
+		\item 1 tsp salt
+		\item Pinch of Thyme (optional)
+		\item 2 tbsp Olive oil
+	\end{ingredients}
+	\begin{directions}
+		\item In a small bowl, mix dry yeast and sugar. Add milk and water and mix. Let sit 5 minutes for the yeast to activate. 
+		\item In a large bowl, combine flour, salt, and thyme. 
+		\item Mix olive oil into yeast mixture and incorporate into flour in batches. Knead until smooth. Let rise 40 minutes until doubled in size. 
+		\item Cut into pieces, roll out, and cook in a pan on the stove until golden brown on both sides. 
+	\end{directions}
+\end{recipe}
+
+
+%% Potatoes
+\subsection*{Potatoes}
+\addcontentsline{toc}{subsection}{Potatoes}
+
+\begin{recipe}{Fried Mashed Potatoes}
+	\begin{ingredients}
+		\item
+	\end{ingredients}
+	\begin{directions}
+		\item Form into either balls or fries and shallow fry in batches, turning as needed, until golden brown and they hold their shape. 
+	\end{directions}
+\end{recipe}
+
+\begin{recipe}{Tater Tot Casserole}
+	\begin{ingredients}
+		\item 28 oz Frozen tater tots
+		\item 1 lb Cubed ham
+		\item 12 oz Shredded cheese
+		\item 1 Shallot
+		\item 1 10 oz can of Cream of Chicken 
+		\item Seasonings (salt, pepper, garlic, cayenne) 
+	\end{ingredients}
+	\begin{directions}
+		\item In a large bowl, mix tater tots, ham, cheese, and shallot. 
+		\item Pour in cream if chicken soup and combine until the mixture is convered evenly. 
+		\item Season to taste.
+		\item Add mixture to an oiled $9 \times 13$ baking dish and top with cheese. Bake at 350\F for 40-45 minutes. 
+	\end{directions}
+\end{recipe}
+
+
+%% Pastas
+\subsection*{Pastas}
+\addcontentsline{toc}{subsection}{Pastas}
+
+\begin{recipe}{Pasta all'Amatriciana}
+	\begin{ingredients}
+		\item
+	\end{ingredients}
+	\begin{directions}
+		\item
+	\end{directions}
+\end{recipe}
+
+\begin{recipe}{Pasta al Burro}
+	\begin{ingredients}
+		\item
+	\end{ingredients}
+	\begin{directions}
+		\item
+	\end{directions}
+\end{recipe}
+
+\begin{recipe}{Pasta al Limone}
+	\begin{ingredients}
+		\item
+	\end{ingredients}
+	\begin{directions}
+		\item
+	\end{directions}
+\end{recipe}
+
+
+%% Rice
+\subsection*{Rice}
+\addcontentsline{toc}{subsection}{Rice}
+
+
+%% Vegetables
+\subsection*{Vegetables}
+\addcontentsline{toc}{subsection}{Vegetables}
+
+
+
+\pagebreak
+%%%%%%%%%%%%%%%%
+%%  Desserts  %%
+%%%%%%%%%%%%%%%%
+\section*{Desserts}
+\addcontentsline{toc}{section}{Desserts}
+
+\begin{recipe}{Banana Bread}
+	\begin{ingredients}
+		\item 2 $\frac12$ cups Granulated sugar
+		\item 1 cup Butter
+		\item 3 Eggs
+		\item 1 $\frac12$ cups Mashed bananas
+		\item 1 $\frac14$ Buttermilk
+		\item 1 tsp Vanilla
+		\item 3 cups Flour
+		\item 1 $\frac12$ tsp Baking soda
+		\item 1 $\frac12$ tsp Baking powder
+		\item Pinch of Cinnamon
+		\item $\frac12$ cups Chopped nuts
+		\item Handful of Chocolate chips
+	\end{ingredients}
+	\begin{directions}
+		\item In a large bowl, cream together sugar and butter. Beat in eggs one at a time. Mix in bananas, buttermilk, and vanilla. Mix in flour, baking soda, baking powder, and cinnamon. Fold in nuts and chocolate chips. 
+		\item Pour batter in two bread pans. Bake at 350\F for 50-60 minutes. 
+	\end{directions}
+\end{recipe}
+
+\begin{recipe}{Blueberry Coffee Cake}
+	\begin{ingredients}[Batter]
+		\item $\frac12$ cup Vegetable oil
+		\item $\frac12$ cup Milk
+		\item $\frac12$ cup Granulated sugar
+		\item 1 Egg
+		\item 1 tsp Vanilla
+		\item 1 $\frac12$ cups Flour
+		\item 2 tsp Baking Powder
+		\item $\frac12$ tsp salt
+		\item Pinch of Cinnamon
+		\item 2 cups Blueberries
+	\end{ingredients}
+	\begin{ingredients}[Topping]
+		\item $\frac14$ cup Flour
+		\item 1 tsp Cinnamon
+		\item $\frac14$ cup Granulated sugar
+		\item 3 tbsp Butter 
+	\end{ingredients}
+	\begin{directions}
+		\item In a large bowl, whisk together oil, milk, sugar, egg, and vanilla. Add flour, baking powder, salt, and cinnamon and mix. Fold in blueberries. 
+		\item In a separate bowl, mix together flour, cinnamon, sugar, and butter for the topping until it forms even clumps. 
+		\item Transfer batter to an oiled $8 \times 8$ baking dish and sprinkle topping evenly over the top (a $9 \times 13$ dish can be used as well, however this should require 50\% more topping). Bake loosely covered at 350\F for 30-35 minutes, then uncover and bake for 5 minutes. 
+	\end{directions}
+\end{recipe}
+
+\begin{recipe}{Lemon Posset}
+	\begin{ingredients}
+		\item 2 cups Heavy cream
+		\item 1/2 cup Lemon juice
+		\item Zest from 2 lemons
+		\item 2/3 cups sugar
+		\item 1/2 tsp salt
+	\end{ingredients}
+	\begin{directions}
+		\item Heat ingredients one the stove over medium-low heat until all ingredients combine. The mixture should not boil, just steam. 
+		\item Distribute evenly between 6-6oz ramekins and let set in the fridge for 4-6 hours before serving. 
+	\end{directions}
+\end{recipe}
+
+\begin{recipe}{Pumkpin Cake}
+	\begin{ingredients}
+		\item 
+	\end{ingredients}
+	\begin{directions}
+		\item 
+	\end{directions}
+\end{recipe}
+
+
+\pagebreak
+%%%%%%%%%%%%
+%% Drinks %%
+%%%%%%%%%%%%
+\section*{Drinks}
+\addcontentsline{toc}{section}{Drinks}
+
+%% Cocktails
+\subsection*{Cocktails}
+\addcontentsline{toc}{subsection}{Cocktails}
+
+
+%% Smoothies & Fruit Drinks
+\subsection*{Smoothies \& Fruit Drinks}
+\addcontentsline{toc}{subsection}{Smoothies \& Fruit Drinks}
+
+%% Teas
+\subsection*{Teas}
+\addcontentsline{toc}{subsection}{Teas}
+
+
+
+
+\end{document}
